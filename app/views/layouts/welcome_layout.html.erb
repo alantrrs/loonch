@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bienvenido</title>
+<%= render 'layouts/stylesheets' %>
+<%= stylesheet_link_tag    "application" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="container">
+		<section>
+		<div style="float: left;">
+			<h2>Bienvenido a Loonch!</h2>
+			<p>La forma más rápida y divertida de planear tus comidas</p>
+		</div>
+		<div style="float: right;">
+			<h2>Regístrate</h2>
+			<%= form_for(@user) do |f| %>
+  			<div class="field">
+    		<%= f.label :name %><br />
+    		<%= f.text_field :name %>
+  			</div>
+  			<div class="field">
+   			 <%= f.label :email %><br />
+   			 <%= f.text_field :email %>
+  			</div>
+  			<div class="field">
+   			 <%= f.label :password %><br />
+    		<%= f.password_field :password %>
+  			</div>
+  			<div class="field">
+    		<%= f.label :password_confirmation, "Confirmation" %><br />
+    		<%= f.password_field :password_confirmation %>
+  			</div>
+  			<div class="actions">
+    		<%= f.submit "Sign up" %>
+  			</div>
+			<% end %>	
+		</div>
+		</section>
+		<%= render 'layouts/footer'%>
+	</div>
+</body>
+</html>
+

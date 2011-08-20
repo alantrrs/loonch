@@ -1,0 +1,13 @@
+div.signin form input {
+	width: auto;
+}
+
+footer {
+float: none;
+text-align: center;
+}
+
+footer nav ul li{
+display: inline;
+padding: 10px;
+}

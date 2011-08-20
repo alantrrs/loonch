@@ -1,0 +1,7 @@
+<div class="signin">
+<%= form_for(:session, :url => sessions_path) do |f| %>
+    <%= f.text_field :email, :placeholder => "usuario@email.com", :size => 20 %>
+    <%= f.password_field :password, :placeholder => "contraseña", :size => 10 %>
+    <%= f.submit "Sign in" %>
+<% end %>
+</div>

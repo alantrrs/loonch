@@ -1,0 +1,22 @@
+<div class="topbar">
+<div class="container fixed">
+	<h3>
+		<a class="logo" href>Loonch!</a>
+	</h3>
+	<form action>
+		<input type="text" placeholder="¿Qué se te antoja?" id="q">
+	</form>
+    
+	<% if signed_in? %>
+	<ul>
+		<li><%= link_to "Mis Loonches","#" %></li>
+		<li><%= link_to "Mis Tickets","#" %></li>
+		<li><%= link_to "Mi Alacena", "#" %></li>
+		<li><%= link_to "Cuenta","#" %></li>
+		<li><%= link_to "Salir", signout_path, :method => :delete %></li>
+	</ul>
+	<% else %>
+		<%= render 'sessions/login_form' %>
+	<% end %>
+</div>
+</div>
