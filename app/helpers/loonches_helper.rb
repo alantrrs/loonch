@@ -1,0 +1,2 @@
+module LoonchesHelper
+end

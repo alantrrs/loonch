@@ -1,0 +1,2 @@
+class LoonchesController < ApplicationController
+end
