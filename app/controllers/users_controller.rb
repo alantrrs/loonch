@@ -10,20 +10,15 @@ def show
    @title = @user.name
 end
 
-def new
-	#@user =  
-    @title = "Regístrate"
-end
-
 def create
     @user = User.new(params[:user])
     if @user.save
 	  sign_in @user
 	  flash[:success] = "Bienvenido a Loonch!"
-	  redirect_to @user
+	  redirect_to home_path
     else
-      @title = "Regístrate"
-      render 'new'
+      @title = "Bienvenido"
+      render 'pages/welcome'
     end
 end
 

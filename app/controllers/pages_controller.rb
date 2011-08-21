@@ -1,11 +1,11 @@
 class PagesController < ApplicationController
-before_filter :signed_in, :only => :welcome
+before_filter :wsigned_in, :only => :welcome
   def home
   	@title = "Home"
   end
   
   def welcome
-  	@title = "Bienvenido"
+	@title = "Bienvenido"
   	@user = User.new
   end
 
@@ -23,8 +23,8 @@ before_filter :signed_in, :only => :welcome
   
 private
 
-  def signed_in
-	#redirect_to(home_path) if signed_in?
+  def wsigned_in
+	redirect_to(home_path) if signed_in?
   end
 
 end
