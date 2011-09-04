@@ -1,0 +1,12 @@
+<h2>Navegar</h2>
+ <% for category in @category.children %>
+    <%unless category.children.empty? %>   
+    	<ul>
+    	<%=category.name %>
+    	<%for subcategory  in category.children %>
+    		<li><%= link_to subcategory.name, subcategory %></li>
+    	<% end %>
+    	</ul>
+    <% end %>
+<% end %>
+

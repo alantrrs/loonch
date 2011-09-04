@@ -1,0 +1,5 @@
+<%unless @products.empty? %>
+  <table class="products" >
+    <%= render :partial => 'shared/product', :collection => @products %>
+  </table>
+<% end %>

@@ -1,0 +1,13 @@
+<% if @category.children.empty? %>
+	<h2><%=@category.name %></h2>
+	<%= render 'shared/product_forms' %>
+<% else %>
+	<ul>
+		<h2><%=@category.name %></h2>
+		<%for subcategory  in @category.children %>
+		<%unless (subcategory.products.empty? && subcategory.children.empty?) %>
+			<li><%= link_to subcategory.name, subcategory %></li>
+		<% end %>
+		<% end %>
+	</ul>
+<% end %>
