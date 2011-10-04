@@ -2,13 +2,10 @@
 class PagesController < ApplicationController
 before_filter :wsigned_in, :only => :welcome
   def home
-  	@title = "Home"
-	@popular_items = Loonch.where("name = ?", params[:q] )
  	@popular_items ||= Loonch.last(10)
-	@products = Product.where("name = ?", params[:q])
-	@products ||= Product.last(10)
- 	@cart = params[:cart]
-	@cart ||= Cart.new
+	#@loonch = Loonch.find_by_id(params[:loonch])
+	#cart = current_user.carts.last
+	#@current_cart = cart.status == "Abierto" ? cart : nil
  end
   def welcome
 	@title = "Bienvenido"
@@ -25,8 +22,8 @@ before_filter :wsigned_in, :only => :welcome
 
   def blog
   	@title = "Blog"
+	#@posts = Post.all.paginate(10)
   end
-  
 private
 
   def wsigned_in

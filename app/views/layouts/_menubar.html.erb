@@ -1,15 +1,14 @@
 <div class="topbar">
 <div class="container fixed">
 	<h3>
-		<%= link_to "Loonch!",home_path,:class => "logo" %>
+		<a href="<%= home_path %>"><img src="assets/logoNavBar.png" style="height:20px; width:auto;" /></a>
 	</h3>
-	<form action>
+	<form action="/home">
 		<input type="text" placeholder="¿Qué se te antoja?" id="q">
-		<input type="submit" value="Buscar">
 	</form>
     
 	<% if signed_in? %>
-	<ul>
+	<ul style="float:right;">
 		<li><%= link_to "Mis Loonches","#" %></li>
 		<li><%= link_to "Cuenta","#" %></li>
 		<li><%= link_to "Salir", signout_path, :method => :delete %></li>

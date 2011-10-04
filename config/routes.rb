@@ -1,9 +1,10 @@
 GroceryApp::Application.routes.draw do
   
-
+  #resources :carts, :only => [:new, :create, :update, :checkout]
   resources :sessions, :only => [:create, :destroy]
   resources :users, :only => [:show, :update, :create, :destroy]
   resources :categories, :only => [:show]
+  resources :loonches, :only => [:show, :new, :create]
   root :to => 'pages#welcome'
 
   match '/home', :to => 'pages#home'
@@ -17,7 +18,11 @@ GroceryApp::Application.routes.draw do
   match '/signout', :to => 'sessions#destroy'
   
   match '/browse', :to => 'categories#index'
-
+ match '/create_cart', :to => 'carts#new'
+ match '/add_to_cart', :to => 'carts#update'	
+ match '/checkout', :to => 'carts#checkout'
+ match '/buy_with', :to => 'carts#buy_with'
+ 
  # The priority is based upon order of creation:
   # first created -> highest priority.
 

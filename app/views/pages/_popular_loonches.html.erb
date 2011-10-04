@@ -1,6 +1,10 @@
 <div>
-<h2>Loonches Populares </h2>
+<h1>Loonches Populares <small>Selecciona el <strong>Loonche</strong> de tu preferencia.</small></h1>
+<div class="twipsies well" style="overflow:hidden;"> 
 <% for loonch in @popular_items  %>
-	<%= image_tag loonch.image %>
+	<div style="margin:3px 3px; position:relative; float:left; width:100px;"> 
+	<%= link_to image_tag(loonch.image),loonch,:remote => true%> 
+	</div>
 <% end %>
+</div>
 </div>

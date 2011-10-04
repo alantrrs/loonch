@@ -2,7 +2,7 @@
 <html>
 <head>
   <title><%= title %></title>
-  <%= stylesheet_link_tag "http://twitter.github.com/bootstrap/assets/css/bootstrap-1.0.0.min.css" %>
+  <!--%= stylesheet_link_tag "http://losproyectos.com/loonch1.css"%-->
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -10,7 +10,9 @@
 </head>
 <body>
 	<%= render 'layouts/menubar'%>
-	<div class="container" style="margin-top: 40px;">
+	<div class="container-fluid" style="margin-top: 40px;">
+	<%= render 'layouts/loonch_detail' %>
+	<div class="content" style="margin-right:240px;">
 		<section>
 			<% flash.each do |key, value| %>
 				<div class="alert-message <%= key %>"><%= value %></div>
@@ -20,5 +22,6 @@
 		<%= render 'layouts/footer'%>
 		<%= debug(params) if Rails.env.development? %>
 	</div>
+</div>	
 </body>
 </html>
