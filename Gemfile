@@ -6,8 +6,13 @@ gem 'rails', '~> 3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'therubyracer'
+group :development do
+	gem 'sqlite3'
+end
+group :production do
+	gem 'pg'
+end
 
-gem 'pg'
 gem 'execjs'
 
 gem 'acts_as_tree'
