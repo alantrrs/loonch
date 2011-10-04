@@ -1,0 +1,941 @@
+id,name,parent_id
+1,"Super",
+2,"Pastelería Fina",1
+3,"Pasteles",2
+4,"Pays",2
+5,"Abarrotes",1
+6,"Aderezos",5
+7,"Aceite de oliva",6
+8,"BBQ Barbacoa",6
+9,"Catsup",6
+10,"Crutones",6
+11,"Light",6
+12,"Mayonesa Light",6
+13,"Mayonesa Regular",6
+14,"Mostaza",6
+15,"Para Carne",6
+16,"Regulares",6
+17,"Varios",6
+18,"Vinagre",6
+19,"Especias y Sazonadores",5
+20,"Ablandadores",19
+21,"Bicarbonato de sodio",19
+22,"Camarón seco",19
+23,"Chiles secos",19
+24,"Condimentos",19
+25,"Consomé",19
+26,"Camaron",25
+27,"Pollo",25
+28,"Pollo con tomate",25
+29,"Res",25
+30,"Especias",19
+31,"Frutas secas",19
+32,"Nueces y Almendras",19
+33,"Sal",19
+34,"Sal combinada",19
+35,"Sazonadores",19
+36,"Semillas",19
+37,"Salsas",5
+38,"Otras salsas",37
+39,"Puré de tomate",37
+40,"Puré de tomate condimentado",37
+41,"Salsa de chile habanero",37
+42,"Salsa para cocinar",37
+43,"Salsa picante",37
+44,"Salsa botanera",37
+45,"Salsas caseras",37
+46,"Frutas y verduras",1
+47,"Ensaladas, germinados y especialidades",46
+48,"Champiñones",47
+49,"Ensaladas",47
+50,"Germinados",47
+51,"Azúcar",5
+52,"Estandar",51
+53,"Refinada",51
+54,"Sustitutos de azúcar",51
+55,"Baño",1
+56,"Aseo Personal",55
+57,"Afeitado y espumas",56
+58,"Esponjas y estropajos",56
+59,"Higiene bucal",56
+60,"Jabones",56
+61,"Shampoos y acondicionadores",56
+62,"Bebés",1
+63,"Accesorios",62
+64,"Accesorios",62
+65,"Baberos",63
+66,"Biberones",63
+67,"Chupones",63
+68,"Escobillones",63
+69,"Esponjas",63
+70,"Estuches",63
+71,"Pañaleras",63
+72,"Sonajas, juguetes y mordederas",63
+73,"Vasos, platos y cubiertos",63
+74,"Alimentos para bebé",62
+75,"Agua",74
+76,"Alimentos 1er etapa",74
+77,"Alimentos 2da etapa",74
+78,"Alimentos 3er etapa",74
+79,"Alimentos y productos para bebé",74
+80,"Cereales",74
+81,"Graduados",74
+82,"Blancos",62
+83,"Almohada",82
+84,"Cobijas",82
+85,"Sábanas",82
+86,"Toallas",82
+87,"Muebles Infantiles",62
+88,"Accesorios",87
+89,"Andaderas",87
+90,"Bañeras",87
+91,"Carreolas",87
+92,"Esterilizador",87
+93,"Nica",87
+94,"Silla porta bebé",87
+95,"Pañales",62
+96,"Calzón entrenador",95
+97,"Desechable alto",95
+98,"Desechable bajo",95
+99,"Desechables medio",95
+100,"Desechables premium",95
+101,"Desechable para nadar",95
+102,"Perfumeria",62
+103,"Aceites",102
+104,"Aplicadores",102
+105,"Cremas",102
+106,"Estuches",102
+107,"Jabón",102
+108,"Loción",102
+109,"Pomadas",102
+110,"Protector de lactancia",102
+111,"Shampoo",102
+112,"Talcos",102
+113,"Toallitas húmedas",102
+114,"Vaselina",102
+115,"Cuidado Personal",1
+116,"Accesorios arreglo personal",115
+117,"Depiladoras y rasuradoras",116
+118,"Rizadores y planchas para el cabello",116
+119,"Secadoras para cabello",116
+120,"Afeitado y Depilación",115
+121,"Depiladores dama",120
+122,"Aromaterapia",115
+123,"Brisas y lociones",122
+124,"Cremas con escencias, exfoliantes, aceites",122
+125,"Cosméticos",115
+126,"Accesorios",125
+127,"Artículos manicure",125
+128,"Delineadores",125
+129,"Esmaltes",125
+130,"Labiales",125
+131,"Maquillajes, polvos y corrector",125
+132,"Máscaras",125
+133,"Quita Esmaltes",125
+134,"Rubores",125
+135,"Sombras",125
+136,"Cuidado Bucal",115
+137,"Varios",136
+138,"Cuidado de la piel",115
+139,"Cremas corporales",138
+140,"Cremas faciales",138
+141,"Cremas y tratamientos",138
+142,"Aclarado facial",141
+143,"Antiarrugas",141
+144,"Exfoliantes",141
+145,"Humectantes",141
+146,"Limpieza facial",141
+147,"Tonificantes",141
+148,"Cuidado del cabello",115
+149,"Accesorios para el cabello",148
+150,"Accesorios infantiles",149
+151,"Broches, clips y pasadores",149
+152,"Peines y cepillos",149
+153,"Roles, espejos y gorras",149
+154,"Fijadores y modeladores",148
+155,"Peróxidos permanentes",148
+156,"Tinte caballeros",148
+157,"Tinte damas",148
+158,"Cuidado de calzado",115
+159,"Ceras líquidas",158
+160,"Ceras sólidas",158
+161,"Esponjas para calzado",158
+162,"Limpiadores",158
+163,"Paquetes y cepillos",158
+164,"Tintas y pinturas",158
+165,"Cuidado femenino",115
+166,"Pantiprotectores",165
+167,"Tampones",165
+168,"Toallas sanitarias",165
+169,"Fragancias",115
+170,"Caballero",169
+171,"Dama",169
+172,"Talcos y talqueras",169
+173,"Talcos y desodorantes",115
+174,"Desodorante teens",173
+175,"Desodorante caballero",173
+176,"Desodorante dama",173
+177,"Talco caballero",173
+178,"Talco dama",173
+179,"Farmacia",1
+180,"Medicamentos OTC",179
+181,"Analgésicos",180
+182,"Complementos alimenticios",180
+183,"Cuidado de los ojos",180
+184,"Cuidado de los pies",180
+185,"Cuidado del bebé",180
+186,"Cuidado del diabético",180
+187,"Dietético",180
+188,"Dolor cólicos",180
+189,"Dolor hemorroides",180
+190,"Dolor muscular y desinflamatorios",180
+191,"Estomacales",180
+192,"Infantil",180
+193,"Naturistas",180
+194,"Respiratorios",180
+195,"Sueros",180
+196,"Vitamínicos",180
+197,"Medicina de Patente",179
+198,"A-B",197
+199,"C-CH",197
+200,"D-E",197
+201,"F-G",197
+202,"H-I",197
+203,"J-K",197
+204,"L-M",197
+205,"N-O",197
+206,"P-Q",197
+207,"R-S",197
+208,"T-U",197
+209,"V-Z",197
+210,"Medicina etica",179
+211,"Antiasmaticos",210
+212,"Antibioticos",210
+213,"Anticonceptivos",210
+214,"Anticonvulsivos",210
+215,"Antidepresivos",210
+216,"Antigripales",210
+217,"Antihistaminicos",210
+218,"Antimicoticos",210
+219,"Cardiovasculares",210
+220,"Colesterol",210
+221,"Diabetes",210
+222,"Dolor",210
+223,"Estomacal",210
+224,"Medicina etica",179
+225,"Multivitaminicos",210
+226,"Obesidad",210
+227,"Oftalmológicos",210
+228,"Osteoporosis",210
+229,"Potencializadores",210
+230,"Psicotrópico",210
+231,"Refrigerados",210
+232,"Prevención y material de curación",179
+233,"Accesorios de medición y control",232
+234,"Antibacterial",232
+235,"Aplicadores",232
+236,"Cuidado de los pies",232
+237,"Cuidado personal",232
+238,"Higiene íntima",232
+239,"Incontinencia",232
+240,"Material de curación",232
+241,"Pads",232
+242,"Planificación familiar",232
+243,"Protector labial",232
+244,"Rehabilitación accesorios",232
+245,"Vista cansada",232
+246,"Comida Preparada",
+247,"Pizzas",246
+248,"Comida Preparada",1
+249,"Platillos de pollo",248
+250,"Blancos",55
+251,"Accesorios decorativos",250
+252,"Cortineros",250
+253,"Cortinas y ganchos",250
+254,"Jaboneras",250
+255,"Juegos de baño",250
+256,"Muebles decorativos",250
+257,"Repicería y jabonera metálicos",250
+258,"Tapetes",250
+259,"Limpieza",55
+260,"Acido muríatico",259
+261,"Destapacaños",259
+262,"Limpiador de inodoros y caños",259
+263,"Limpiadores de cuarto de baño",259
+264,"Pastillas para inodoro",259
+265,"Pastillas tanque de baño",259
+266,"Papel higiénico",55
+267,"Plomería",55
+268,"Llaves mezcladoras y de paso",267
+269,"Regaderas y coladeras",267
+270,"Tapas para baño",267
+271,"Toallas",55
+272,"Toalla baño",271
+273,"Toalla estampada pulman",271
+274,"Toalla manos",271
+275,"Toallas medio baño",271
+276,"Toalla playa",271
+277,"Toalla pulman",271
+278,"Blancos",1
+279,"Baño",278
+280,"Esponjas, estropajos, cepillos",279
+281,"Cama",278
+282,"Almohadas",281
+283,"Cojín coordinado",281
+284,"Colchón",281
+285,"Colchoneta",281
+286,"Edredón",281
+287,"Sábanas",281
+288,"Protector para colchón",281
+289,"Closet",278
+290,"Closets armables",289
+291,"Fundas burro / lavadoras",289
+292,"Ganchos",289
+293,"Muebles para closet",289
+294,"Portatrajes",289
+295,"Zapateras",289
+296,"Cocina",278
+297,"Cojín para silla",296
+298,"Delantales y mandiles",296
+299,"Fundas aparatos",296
+300,"Manteles",296
+301,"Protectores y tortilleros",296
+302,"Secador cocina",296
+303,"Uniformes de servicio",296
+304,"Decoración",278
+305,"Alfombras",304
+306,"Cojines",304
+307,"Tapetes",304
+308,"Bebidas",5
+309,"Agua y Hielo",308
+310,"Natural",309
+311,"Mineral y Quina",309
+312,"Hielo",309
+313,"Saborizada",309
+314,"Concentrados",308
+315,"Jugos y Néctares",308
+316,"Infantiles",315
+317,"Jugos y Néctares",308
+318,"Verduras",315
+319,"Refrescos",308
+320,"Light",319
+321,"No retornable light",319
+322,"Regular",319
+323,"Varios",319
+324,"Vinos y Licores",1
+325,"Cerveza",324
+326,"Cerveza sin alcohol",325
+327,"Importada",325
+328,"Lata",325
+329,"Mezcladores para Cerveza",325
+330,"Vidrio",325
+331,"Energizantes",308
+332,"Té helado",308
+333,"Varias",308
+334,"Lácteos y Refrigerados",1
+335,"Alimentos Refrigerados",334
+336,"Comidas preparadas",335
+337,"Frijol cocido",335
+338,"Tortillas",335
+339,"Cremas y jocoques",334
+340,"Crema natural",339
+341,"Crema pastelera",339
+342,"Crema vegetal",339
+343,"Jocoque fresco",339
+344,"Gelatinas y postres",334
+345,"Bolis",344
+346,"Flan",344
+347,"Gelatina",344
+348,"Natilla",344
+349,"Postre de leche",344
+350,"Huevo",334
+351,"Blanco",350
+352,"Especialidades",350
+353,"Jumbo",350
+354,"Rojo",350
+355,"Leche",334
+356,"Cremas",355
+357,"Condensada",355
+358,"En polvo",355
+359,"Evaporada",355
+360,"Especializada",355
+361,"Fresca",355
+362,"Pasteurizada",361
+363,"Pasteurizada light",361
+364,"Pasteurizada sabores",361
+365,"Ultra pasteurizada",355
+366,"Formula láctea",365
+367,"Ultra entera",365
+368,"Ultra especializada",365
+369,"Ultra light",365
+370,"Ultra saborizada",365
+371,"Ultra semidescremada",365
+372,"Mantequilla y Margarina",334
+373,"Mantequilla con sal",372
+374,"Mantequilla sin sal",372
+375,"Margarina sin sal",372
+376,"Margarina sólida con sal",372
+377,"Margarina sólida sin sal",372
+378,"Margarina suave con sal",372
+379,"Quesos",334
+380,"Granel",379
+381,"Amarillo",380
+382,"Asadero",380
+383,"Chester y menonita",380
+384,"Chihuahua",380
+385,"Cotija",380
+386,"Cottage",380
+387,"Crema",380
+388,"Fresco",380
+389,"Gouda",380
+390,"Manchego",380
+391,"Panela",380
+392,"Requesón",380
+393,"Empacados",379
+394,"Amarillo",393
+395,"Asadero",393
+396,"Chihuahua",393
+397,"Cottage",393
+398,"Crema",393
+399,"Fresco",393
+400,"Manchego",393
+401,"Oaxaca",393
+402,"Panela",393
+403,"Chester y menonita",393
+404,"Finos",393
+405,"Yoghurt",334
+406,"Con fruta 150 grs.",405
+407,"Batido light",405
+408,"Batido regular",405
+409,"Bebida látea fermentada",405
+410,"Con cereales",405
+411,"Funcional para beber",405
+412,"Infantil para beber",405
+413,"Light para beber",405
+414,"Para beber",405
+415,"Petit suisse",405
+416,"Aguardiente",324
+417,"Aperitivos y Digestivos",324
+418,"Bebidas premezcladas",324
+419,"Brandy",324
+420,"Cocktail",324
+421,"Cognac",324
+422,"Ginebra y Vodka",324
+423,"Mezcal",324
+424,"Mezcladores",324
+425,"Ron",324
+426,"Sidras y Vinos Espumosos",324
+427,"Tequila",324
+428,"TODOS",427
+429,"Vinos de mesa",324
+430,"Vino Rosado",429
+431,"Vino Tinto",429
+432,"Vino Blanco",429
+433,"Whisky",324
+434,"Té, chocolate y café",5
+435,"Té",434
+436,"Té combinado",435
+437,"Té de Tila",435
+438,"Té de yerbabuena",435
+439,"Té de limón",435
+440,"Té de manzanilla",435
+441,"Café",434
+442,"Descafeinado",441
+443,"En grano",441
+444,"Especialidades",441
+445,"Mezclado",441
+446,"Molido",441
+447,"Soluble",441
+448,"Listo para beber",441
+449,"Sustituto de crema",441
+450,"Saborizantes",434
+451,"Atoles",450
+452,"En polvo",450
+453,"En tableta",450
+454,"Líquido",450
+455,"Dulcería",5
+456,"Ate",455
+457,"Cacahuates y Semillas",455
+458,"Caramelo",455
+459,"Granel",458
+460,"Macizo Piñata",458
+461,"Suave Piñata",458
+462,"Chicles",455
+463,"Granel",462
+464,"Chocolates",455
+465,"Barra",464
+466,"Estuches",464
+467,"Granel",464
+468,"Piñata",464
+469,"Dulces",455
+470,"Cremoso Piñata",469
+471,"Estuche",469
+472,"Regionales",469
+473,"Gomitas",455
+474,"Granel",473
+475,"Piñata",473
+476,"Malvaviscos",455
+477,"Paletas",455
+478,"Tamarindos y Acidos",455
+479,"Granel",478
+480,"Piñata",478
+481,"Botanas",5
+482,"Surtidos",481
+483,"Cacahuates",481
+484,"Chicharrón de cerdo",481
+485,"Dips",481
+486,"Frituras",481
+487,"Nachos",481
+488,"Palomitas para microondas",481
+489,"Semillas y otras botanas",481
+490,"Tostadas",481
+491,"Mermeladas, Jaleas y Miel",5
+492,"Cajeta",491
+493,"Crema de cacahuate",491
+494,"Jaleas",491
+495,"Jarabe",491
+496,"Maple",495
+497,"Sabores",495
+498,"Light",495
+499,"Mermelada",491
+500,"Regular",499
+501,"Light",499
+502,"Miel",491
+503,"Abeja",502
+504,"Para bebé",502
+505,"Postres",5
+506,"Flan en polvo",505
+507,"Gelatinas",505
+508,"Gelatinas light",505
+509,"Postres varios",505
+510,"Congelados",1
+511,"Helados y postres",510
+512,"Helado de crema",511
+513,"Nieve de Agua",511
+514,"Paletas",511
+515,"Waffles y hot cakes",511
+516,"Galletas",5
+517,"Cremas de nieve",516
+518,"Avena y fibras",516
+519,"Con fruta",516
+520,"Con malvavisco",516
+521,"De chocolate",516
+522,"Finas",516
+523,"Marías",516
+524,"Oil crackets",516
+525,"Populares",516
+526,"Saladas",516
+527,"Saludables saladas",516
+528,"Sandwich",516
+529,"Surtida",516
+530,"Tradicionales",516
+531,"Tabacos",324
+532,"Carnes y Salchichonería",1
+533,"Alimentos a Granel",532
+534,"Aceitunas",533
+535,"Almendra",533
+536,"Cacahuate",533
+537,"Cerdo encurtido",533
+538,"Cereza",533
+539,"Ciruela Pasa",533
+540,"Fruta cubierta",533
+541,"Moles, adobos, consome y especias",533
+542,"Nuez",533
+543,"Uva Pasa",533
+544,"Verduras encurtidas",533
+545,"Carbón e Iniciadores",532
+546,"Carbón",545
+547,"Generadores de fuego",545
+548,"Carne seca, chorizos y tocinos",532
+549,"Carne seca",548
+550,"Chicharron prensado",548
+551,"Chorizo de cerdo",548
+552,"Chorizo de pavo",548
+553,"Chorizo de pollo",548
+554,"Chorizo de soya",548
+555,"Chorizo mixto",548
+556,"Longaniza",548
+557,"Cerdo",532
+558,"Carne adobada",557
+559,"Corte fino ahumado",557
+560,"Corte fino",557
+561,"Corte Primario con hueso",557
+562,"Derivados",557
+563,"Molidas",557
+564,"Pulpas",557
+565,"Vísceras",557
+566,"Delicatessen",532
+567,"Chorizo maduro",566
+568,"Jamón serrano",566
+569,"Salami",566
+570,"Deli Gourmet",532
+571,"Carnes y chorizos gourmet",570
+572,"Jamones Gourmet",570
+573,"Pan Gourmet",570
+574,"Salamis, morcillas y pepperoni gourmet",570
+575,"Especialidades",532
+576,"Cordero",575
+577,"Jamones",532
+578,"Jamón americano",577
+579,"Jamón de pavo",577
+580,"Jamón de pierna",577
+581,"Jamón horneado",577
+582,"Jamón virginia",577
+583,"Pechuga de pavo",577
+584,"Pastas embutidas",532
+585,"Mortadela",584
+586,"Pastel",584
+587,"Pathé",584
+588,"Queso de puerco",584
+589,"Pavo",532
+590,"Pavo crudo en piezas",589
+591,"Varios",589
+592,"Pollo",532
+593,"Alitas",592
+594,"Milanesa",592
+595,"Muslo de Pollo",592
+596,"Pechuga con hueso",592
+597,"Pierna",592
+598,"Piernas y muslo",592
+599,"Pollo entero",592
+600,"Vísceras",592
+601,"Res",532
+602,"Corte fino",601
+603,"Cuarto delantero con hueso",601
+604,"Cuarto delantero sin hueso",601
+605,"Filete",601
+606,"Molida",601
+607,"Pulpa",601
+608,"Ternera",601
+609,"Varios",601
+610,"Vísceras",601
+611,"Salchichas",532
+612,"Cocktail",611
+613,"Frankfurt",611
+614,"Para asar",611
+615,"Pavo",611
+616,"Viena",611
+617,"Comidas Congeladas",510
+618,"Antojitos y botanas",617
+619,"Aves",617
+620,"Pescados y mariscos",617
+621,"Hamburguesas",617
+622,"Pizza",617
+623,"Frutas y Verduras Congeladas",510
+624,"Fruta",623
+625,"Verduras",623
+626,"Papa",623
+627,"Pan, repostería y tortillas",5
+628,"Tortillas",627
+629,"Harina",628
+630,"Integral",628
+631,"Maíz",628
+632,"Cereales",5
+633,"Avena",632
+634,"Básico",632
+635,"Endulzado",632
+636,"Granolas",632
+637,"Barras",632
+638,"Fibra",637
+639,"Granola",637
+640,"Infantil",637
+641,"Light",637
+642,"Multi-ingredientes",637
+643,"Chocolate",632
+644,"Fibra",632
+645,"Fruta",632
+646,"Light",632
+647,"Mixto",632
+648,"Multi-ingredientes",632
+649,"Trigo Inflado",632
+650,"Antojitos",248
+651,"Comida china",248
+652,"Desayunos",248
+653,"Ensaladas",248
+654,"Platillos de pescados y mariscos",248
+655,"Platillos de cerdo",248
+656,"Platillos de res",248
+657,"Platillos de vegetales",248
+658,"Postres",248
+659,"Rincón mexicano",248
+660,"Salsas y complementos",248
+661,"Sopas y Pastas",248
+662,"Cremas, Sopas y Pastas",5
+663,"Cremas y Caldos",662
+664,"Pasta para sopa",662
+665,"Pastas especiales",662
+666,"Puré de papa",662
+667,"Salsa para espagueti",662
+668,"Sopas especiales",662
+669,"Sopas instantáneas",662
+670,"Sopas precocidas y preparadas",662
+671,"Frutas",46
+672,"A-B",671
+673,"C-CH",671
+674,"D-E",671
+675,"F-G",671
+676,"H-L",671
+677,"M-O",671
+678,"P-Q",671
+679,"Granos y Semillas",5
+680,"Sushi",679
+681,"Alubias",679
+682,"Arroz",679
+683,"Extra",682
+684,"Precocido y/o preparado",682
+685,"Super extra",682
+686,"Chícharo",679
+687,"Frijol",679
+688,"Frijol otros",687
+689,"Bayo",687
+690,"Mayo Coba",687
+691,"Negro",687
+692,"Pinto",687
+693,"Garbanzo",679
+694,"Graneles",679
+695,"Habas",679
+696,"Lentejas",679
+697,"Maíz palomero",679
+698,"Harinas y Complementos",5
+699,"Azúcar glass",698
+700,"Betunes",698
+701,"Harina",698
+702,"Maíz",701
+703,"Trigo integral",701
+704,"Trigo",701
+705,"Especialidades",701
+706,"Hot Cakes",701
+707,"Pastel",701
+708,"Polvos para hornear",698
+709,"Complementos para hornear",698
+710,"Pescados y Mariscos",1
+711,"Filetes, postas y chuletas",710
+712,"Latería",5
+713,"Alimentos preparados envasados",712
+714,"Aceitunas",713
+715,"Alcaparras",713
+716,"Carnes preparadas",713
+717,"Chiles jalapeños rellenos",713
+718,"Comida preparada",713
+719,"Esparragos",713
+720,"Mole",713
+721,"Pathe",713
+722,"Soya en trozo",713
+723,"Verduras y vegetales gourmet",713
+724,"Chiles envasados",712
+725,"Chipotle",724
+726,"Habaneros",724
+727,"Pimiento",724
+728,"Jalapeños rajas",724
+729,"Jalapeños rodajas",724
+730,"Jalapeños enteros",724
+731,"Largos",724
+732,"Serranos",724
+733,"Varios",724
+734,"Frijoles",712
+735,"Precocidos",734
+736,"Frijoles enteros",734
+737,"Frijoles refritos",734
+738,"Frutas envasadas",712
+739,"Cerezas",738
+740,"Cóctel de frutas",738
+741,"Duraznos",738
+742,"Guayaba",738
+743,"Piñas",738
+744,"Varias",738
+745,"Productos del mar envasados",712
+746,"Angulas",745
+747,"Atún en aceite",745
+748,"Atún en agua",745
+749,"Calamar",745
+750,"Ensaladas",745
+751,"Mariscos varios",745
+752,"Ostión",745
+753,"Sardina en aceite",745
+754,"Sardina en tomate",745
+755,"Verduras y vegetales envasados",712
+756,"Champiñones",755
+757,"Chícharos",755
+758,"Chícharos con zanahorias",755
+759,"Cuitlacoche",755
+760,"Elote en grano",755
+761,"Ensalada de vegetales",755
+762,"Flor de calabaza",755
+763,"Garbanzo",755
+764,"Maíz blanco",755
+765,"Varios",755
+766,"Limpieza",1
+767,"Aromatizantes",766
+768,"Continuos",767
+769,"Eléctricos",767
+770,"En aerosol",767
+771,"Eliminaolores",767
+772,"Velas aromáticas",767
+773,"Detergentes",766
+774,"Detergentes en polvo",773
+775,"Blanqueador Regular",773
+776,"Blanqueador con aroma",773
+777,"Desinfección instantánea",773
+778,"Desmanchadores instantáneos y prelavados",773
+779,"Desmanchadores líquidos",773
+780,"Desmanchadores en polvo",773
+781,"Desodorante de ropa",773
+782,"Detergente líquido",773
+783,"Facilitadores de planchado",773
+784,"Jabón de lavandería",773
+785,"Lavatrastes",773
+786,"Líquido",785
+787,"Pasta",785
+788,"Polvo",785
+789,"Suavizante regular",773
+790,"Suavizante sin enjuague",773
+791,"Toallitas para lavado o secado",773
+792,"Hogar",766
+793,"Limpiador de muebles",792
+794,"Limpiador de vidrios",792
+795,"Limpiador de multisuperficies",792
+796,"Limpiadores de cocina",792
+797,"Limpiadores de pisos",792
+798,"Limpiadores especializados de pisos",792
+799,"Limpiadores multipropósitos",792
+800,"Toallitas",792
+801,"Insecticidas y Venenos",766
+802,"Desinfectante de frutas",801
+803,"Rastreros aerosol",801
+804,"Rastreros líquido y polvo",801
+805,"Repelentes corporales",801
+806,"Roedores",801
+807,"Voladores aerosol",801
+808,"Voladores espirales, plaquitas y aparatos",801
+809,"Jarciería",766
+810,"Cepillos de cocina",809
+811,"Cepillos sanitarios",809
+812,"Destapador para baño",809
+813,"Escobas",809
+814,"Fibra esponja",809
+815,"Fibras metálicas y lanas de acero",809
+816,"Fibras plásticas y sintéticas",809
+817,"Fibra verde",809
+818,"Franelas",809
+819,"Guantes",809
+820,"Jaladores",809
+821,"Líquidos lustradores",809
+822,"Pinzas y tendederos",809
+823,"Plumeros y quitapelusas",809
+824,"Recogedor para basura y cubetas",809
+825,"Tela para cocina",809
+826,"Trapeadores",809
+827,"Mascotas",1
+828,"Aves",827
+829,"Alimento para aves",828
+830,"Estética e higiene",827
+831,"Estética",830
+832,"Limpieza e higiene",830
+833,"Gatos",827
+834,"Alimento húmedo",833
+835,"Alimento seco",833
+836,"Peces y tortugas",827
+837,"Accesorios y acuarios",836
+838,"Alimento para peces y tortugas",836
+839,"Perros",827
+840,"Alimento humedo cachorro",839
+841,"Alimento húmedo adulto",839
+842,"Alimento seco cachorro",839
+843,"Alimento seco adulto",839
+844,"Alimento seco adulto premium",839
+845,"Premios y botanas",839
+846,"Pan",627
+847,"Empanizadores",846
+848,"Especialidad Salado",846
+849,"Pan de barra blanco",846
+850,"Pan de barra saludable",846
+851,"Pan dulce tradicional",846
+852,"Pan para hamburguesa",846
+853,"Pan para hot-dog",846
+854,"Pan tostado",846
+855,"Pastelito deli",846
+856,"Pastelito tradicional",846
+857,"Repostería",627
+858,"Galletas",857
+859,"Apastelado",857
+860,"Baguette",857
+861,"Biscocho",857
+862,"Bocadillos",857
+863,"Bollería y pan de caja",857
+864,"Churros",857
+865,"Donas",857
+866,"Especialidades de panadería",857
+867,"Feite relleno",857
+868,"Figuras varias",857
+869,"Gelatinas",857
+870,"Materia prima chocolatería",857
+871,"Pan congelado",857
+872,"Pan danés",857
+873,"Pan europeo",857
+874,"Pan fino",857
+875,"Pan francés",857
+876,"Pan royal",857
+877,"Pan saludable",857
+878,"Pan surtido",857
+879,"Pasta seca",857
+880,"Pastelitos",857
+881,"Pedidos especiales",857
+882,"Repostería",627
+883,"Papel y Desechables",5
+884,"Aluminio  y Envolturas",883
+885,"Papel aluminio",884
+886,"Papel encerado",884
+887,"Película de empaque",884
+888,"Bolsas",883
+889,"Alimentos",888
+890,"Basura",888
+891,"Desechables",883
+892,"Cubiertos",891
+893,"Palillos",891
+894,"Platos",891
+895,"Popotes",891
+896,"Vasos",891
+897,"Pañuelos",883
+898,"Regular",897
+899,"Especial",897
+900,"Servilletas",883
+901,"Regular",900
+902,"Premium",900
+903,"Toallas desechables",883
+904,"Toallas premium",903
+905,"Toallas medio",903
+906,"Toallas alto",903
+907,"Variedades",
+908,"Fiesta y Regalos",907
+909,"Accesorios de fiesta",908
+910,"Bolsas para regalo",908
+911,"Cajas para regalo",908
+912,"Desechables fiesta",908
+913,"Envolturas",908
+914,"Moños y listones",908
+915,"Tarjetas de Felicitación",908
+916,"Regalos y accesorios",908
+917,"Caballero",916
+918,"Lentes para sol",916
+919,"Peluches",916
+920,"Camarón cocido",710
+921,"Camarón crudo",710
+922,"Coctelería",710
+923,"Mariscos y moluscos",710
+924,"Pescados finos",710
+925,"Pescados populares",710
+926,"Sushi",710
+927,"Varios",710
+928,"Verduras",46
+929,"A-B",928
+930,"C-CH",928
+931,"D-E",928
+932,"H-L",928
+933,"M-O",928
+934,"P-Q",928
+935,"R-T",928
+936,"U-Z",928
+937,"Verduras frescas",46
+938,"Lechugas",937
+939,"Vegetales frescos",937
+940,"Zanahorias",937

@@ -1,0 +1,38 @@
+<h1>Comparar <small>Supermercados Locales</small></h1>
+<% if @current_cart.items.empty? %>
+    <h4>Tu carrito está vacío</h4>
+<% else %>
+<%=form_tag '/buy_with' do%>
+<table class="zebra-striped">
+    <thead><tr>
+        <th>Artículo</th>
+        <th>Cantidad</th>
+		<th style="text-align:center;"><%=image_tag 'proveedores/soriana.gif', :style =>"max-width:100px;" %></th>
+		<th style="text-align:center;"><%=image_tag 'proveedores/walmart.jpg', :style =>"max-width:100px;" %></th>
+		<th style="text-align:center;"><%=image_tag 'proveedores/heb.jpg', :style =>"max-width:100px;" %></th>
+   </tr> </thead>
+<tbody>
+    <%for item in @current_cart.items %>
+        <tr>
+            <td><%=item.product.name%> </td>
+            <td style="text-align:center;"><%=item.sale_quantity%></td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+        </tr>
+    <% end %>
+<tr><td></td><td>TOTAL:</td><td></td><td></td><td></td></tr>
+<tr>
+<td></td><td></td>
+<td style="text-align:center;"><%=radio_button_tag 'proveedor', 'soriana'%></td>
+<td style="text-align:center;"><%=radio_button_tag 'proveedor','walmart' %></td>
+<td style="text-align:center;"><%=radio_button_tag 'proveedor','HEB' %></td>
+
+<%= hidden_field_tag 'cart_id', @current_cart.id %>
+</tr></tbody>
+</table>
+<%= submit_tag 'Comprar', :class =>"btn primary" %>
+<% end %>
+<% end %>
+</div>
+

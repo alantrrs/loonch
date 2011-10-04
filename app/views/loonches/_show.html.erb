@@ -1,0 +1,21 @@
+<h3><%=@loonch.name %></h3>
+<%=form_tag( @current_cart.nil? ? '/create_cart' : '/add_to_cart', :remote => true) do %>
+<table class="zebra-striped">
+<thead>
+<tr><th>Ingrediente</th><th>Cantidad</th></tr>
+</thead>
+<tbody>
+<%for ingredient in @loonch.ingredients %>
+	<tr>
+		<td><%=ingredient.product.name%></td>
+		<td><%=ingredient.quantity %></td>
+	</tr>
+<%end%>
+</tbody>
+</table>
+<%= label_tag(:quantity,"Porciones:  ") %>
+<%= hidden_field_tag 'loonch_id', @loonch.id %>
+<%= hidden_field_tag 'cart_id', @current_cart.nil? ? nil : @current_cart.id %>
+<%= text_field_tag(:quantity)%>
+<%= submit_tag "Agregar", :class =>"btn primary"%>
+<%end%>

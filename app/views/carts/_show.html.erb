@@ -1,0 +1,25 @@
+<h3>Carrito</h3>
+<% if @current_cart.items.empty? %>
+	<h4>Tu carrito está vacío</h4>
+<% else %>
+	<table class="zebra-striped">
+		<thead>
+			<tr>
+      			<th>Artículo</th>
+				<th>Cantidad</th>
+				<th>Te sobra</th>
+      		</tr>
+		</thead>
+		<%for item in @current_cart.items %>
+			<tr>
+				<td><%=item.product.name%> </td>
+				<td><%=item.sale_quantity%></td>
+				<td><%=item.lef_quantity%></td>
+			</tr>
+		<% end %>
+	</table>
+	<%=form_tag '/checkout' do%>
+		<%=hidden_field_tag 'cart_id', @current_cart.id %>
+		<%= submit_tag "Ver precios", :class =>"btn primary"%>
+	<% end %>
+<% end %>
